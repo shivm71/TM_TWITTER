@@ -1,7 +1,8 @@
 package com.twitter;
 
-import com.twitter.service.OutputResourceService;
+
 import com.twitter.service.ConsoleService;
+import com.twitter.service.OutputResourceService;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -9,7 +10,7 @@ import java.io.InputStreamReader;
 public class MainApp {
 
     public static void main(String[] args) {
-        System.out.println("TECHMOJO ASSIGNMENT (1).");
+        System.out.println("---- TECHMOJO ASSIGNMENT (1) ----");
 
         // input
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -17,8 +18,8 @@ public class MainApp {
         while (true) {
             try {
                 System.out.println("Please Choose Valid option");
-                System.out.println("1 to Enter Sample ");
-                System.out.println("2 to get Trending Hashtags till now");
+                System.out.println("1 to Insert Tweets.");
+                System.out.println("2 to get Trending Hashtags till now.");
                 System.out.println("3 for Exit");
 
                 int input = Integer.parseInt(br.readLine().trim());
