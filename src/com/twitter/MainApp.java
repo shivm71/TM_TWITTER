@@ -20,11 +20,11 @@ public class MainApp {
                 System.out.println("Please Choose Valid option");
                 System.out.println("1 to Insert Tweets.");
                 System.out.println("2 to get Trending Hashtags till now.");
-                System.out.println("3 for Exit");
+                System.out.println("3 for Exit.");
 
                 int input = Integer.parseInt(br.readLine().trim());
                 if (input == 1) {
-                    System.out.println("Please give the tweet");
+                    System.out.println("Please give the tweet : ");
                     String tweet = br.readLine().trim();
                     ConsoleService.readTweets(tweet);
                 } else if (input == 2) {
