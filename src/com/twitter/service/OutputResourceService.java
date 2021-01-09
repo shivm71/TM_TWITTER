@@ -12,7 +12,7 @@ public class OutputResourceService {
 
         cache.getHashTags().forEach((hashTag) -> {
 //            System.out.println(hashTag.getName() + " : " + hashTag.getFreq());
-            System.out.println(hashTag.getName());
+            System.out.println("#"+hashTag.getName());
         });
 
         System.out.println("------ END ------");
