@@ -16,9 +16,9 @@ Output :
     3 for Exit
     2
     ------ Top 10 trending HashTags ------
-    ksudhgliu
-    skudg
-    SHIVAN
+    #ksudhgliu
+    #skudg
+    #SHIVAN
     ------ END ------
     Please Choose Valid option
     1 to Insert Tweets.
